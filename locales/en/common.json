@@ -1,0 +1,227 @@
+{
+  "common": {
+    "appName": "OpenWebUI Monitor",
+    "description": "Usage monitoring and balance management platform for OpenWebUI",
+    "loading": "Loading...",
+    "error": "Failed to load",
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "save": "Save",
+    "edit": "Edit",
+    "delete": "Delete",
+    "close": "Close",
+    "back": "Back",
+    "currency": "$",
+    "count": "",
+    "total": "Total",
+    "prev": "Previous",
+    "next": "Next",
+    "page": "Page"
+  },
+
+  "auth": {
+    "accessToken": "Access Token",
+    "accessTokenPlaceholder": "Please enter access token",
+    "accessTokenHelp": "ACCESS_TOKEN Environment Variable",
+    "accessTokenRequired": "Please enter access token",
+    "showToken": "Show Token",
+    "verifying": "Verifying...",
+    "verificationFailed": "Verification failed",
+    "unauthorized": "Unauthorized, please login again",
+    "invalidToken": "Invalid access token",
+    "loginSuccess": "Token verification successful"
+  },
+
+  "header": {
+    "menu": {
+      "copyApiKey": "Copy API KEY",
+      "dataBackup": "Data Migration",
+      "checkUpdate": "Check Update",
+      "logout": "Logout"
+    },
+    "messages": {
+      "unauthorized": "Unauthorized, please login again",
+      "apiKeyNotSet": "API key not set or failed to load",
+      "apiKeyCopied": "API key copied to clipboard",
+      "updateCheckFailed": "Failed to check for updates",
+      "latestVersion": "Current version is up to date",
+      "getVersionFailed": "Failed to get version number"
+    },
+    "update": {
+      "newVersion": "New Version Available",
+      "currentVersion": "Current Version",
+      "latestVersion": "Latest Version",
+      "skipUpdate": "Skip Update",
+      "goToUpdate": "Go to Update"
+    },
+    "language": {
+      "zh": "中",
+      "en": "EN"
+    }
+  },
+
+  "home": {
+    "features": {
+      "models": {
+        "title": "Model",
+        "description": "Price Management"
+      },
+      "users": {
+        "title": "User",
+        "description": "Balance Management"
+      },
+      "stats": {
+        "title": "Usage",
+        "description": "Statistics & Visualization"
+      }
+    }
+  },
+
+  "models": {
+    "title": "Model Management",
+    "description": "Manage price configurations for all available models. Click model icon to test individually, test results will be shown in the top right corner of the icon.",
+    "testAll": "Test All Models",
+    "exportConfig": "Export",
+    "importConfig": "Import",
+    "test": {
+      "status": {
+        "valid": "Valid",
+        "invalid": "Invalid",
+        "pending": "Pending",
+        "testing": "Testing",
+        "complete": "Complete"
+      },
+      "progress": {
+        "title": "Test Progress",
+        "detail": "Click card for details"
+      },
+      "result": {
+        "success": "Valid Models",
+        "failed": "Invalid Models",
+        "complete": "Test complete, click card for details"
+      }
+    },
+    "table": {
+      "name": "Model",
+      "inputPrice": "Input Price $ / M tokens",
+      "outputPrice": "Output Price $ / M tokens",
+      "perMsgPrice": "Per Message Price $ / Message",
+      "notSet": "Not Set",
+      "mobile": {
+        "inputPrice": "Input Price",
+        "outputPrice": "Output Price",
+        "perMsgPrice": "Per Message"
+      },
+      "perMsgPriceTooltip": "Set a negative value to charge by tokens instead of per message"
+    }
+  },
+
+  "users": {
+    "title": "User Management",
+    "userInfo": "User Info",
+    "balance": "Balance",
+    "id": "ID",
+    "name": "Name",
+    "email": "Email",
+    "role": "Role",
+    "userDetails": "User Details",
+    "nickname": "Nickname",
+    "message": {
+      "updateBalance": {
+        "success": "Balance updated successfully",
+        "error": "Failed to update balance"
+      },
+      "fetchUsersError": "Failed to fetch user list",
+      "invalidNumber": "Please enter a valid number",
+      "deleteSuccess": "User deleted successfully",
+      "deleteError": "Failed to delete user"
+    },
+    "actions": "Actions",
+    "deleteConfirm": {
+      "title": "Confirm Delete User",
+      "description": "Are you sure you want to delete user \"{{name}}\"? This action cannot be undone and all related data will be deleted."
+    },
+    "total": "Total",
+    "totalRecords": "records"
+  },
+
+  "records": {
+    "title": "Usage Records",
+    "export": "Export Records",
+    "dateRange": "Date Range",
+    "columns": {
+      "user": "User",
+      "model": "Model",
+      "tokens": "Tokens",
+      "cost": "Cost",
+      "time": "Time"
+    }
+  },
+
+  "update": {
+    "newVersion": "New Version Available",
+    "currentVersion": "Current Version",
+    "latestVersion": "Latest Version",
+    "ignore": "Ignore",
+    "update": "Update",
+    "skipUpdate": "Skip Update",
+    "goToUpdate": "Go to Update"
+  },
+
+  "backup": {
+    "title": "Data Migration",
+    "description": "Export or import database backups for migration and recovery",
+    "export": {
+      "title": "Export Data",
+      "description": "Export current data as backup file",
+      "success": "Export successful",
+      "error": "Export failed"
+    },
+    "import": {
+      "title": "Import Data",
+      "description": "Restore data from backup file",
+      "success": "Import successful",
+      "error": "Import failed"
+    }
+  },
+
+  "panel": {
+    "header": "Usage Statistics Dashboard - OpenWebUI",
+    "title": "Usage Statistics",
+    "byAmount": "By Amount",
+    "byCount": "By Count",
+    "timeRange": {
+      "title": "Time Range",
+      "timeOptions": {
+        "day": "Today",
+        "week": "Week",
+        "month": "Month",
+        "30Days": "30 Days",
+        "all": "All"
+      }
+    },
+    "modelUsage": {
+      "title": "Model Usage",
+      "total": "Total",
+      "others": "Others"
+    },
+    "userUsageChart": {
+      "title": "User Usage",
+      "yaxis": {
+        "byAmount": "Amount Spent",
+        "byCount": "Usage Count"
+      }
+    },
+    "usageDetails": {
+      "title": "Usage Details",
+      "table": {
+        "user": "User",
+        "time": "Time",
+        "model": "Model",
+        "tokens": "Tokens",
+        "cost": "Cost",
+        "balance": "Balance"
+      }
+    }
+  }
+}

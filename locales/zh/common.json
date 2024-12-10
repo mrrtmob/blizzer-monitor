@@ -1,0 +1,227 @@
+{
+  "common": {
+    "appName": "OpenWebUI Monitor",
+    "description": "专为 OpenWebUI 设计的用量监控和用户余额管理平台",
+    "loading": "加载中...",
+    "error": "加载失败",
+    "confirm": "确认",
+    "cancel": "取消",
+    "save": "保存",
+    "edit": "编辑",
+    "delete": "删除",
+    "close": "关闭",
+    "back": "返回",
+    "currency": "¥",
+    "count": "次",
+    "total": "总计",
+    "prev": "上一页",
+    "next": "下一页",
+    "page": "页"
+  },
+
+  "auth": {
+    "accessToken": "访问令牌",
+    "accessTokenPlaceholder": "请输入访问令牌",
+    "accessTokenHelp": "ACCESS_TOKEN 环境变量",
+    "accessTokenRequired": "请输入访问令牌",
+    "showToken": "显示令牌",
+    "verifying": "验证中...",
+    "verificationFailed": "验证失败",
+    "unauthorized": "未授权，请重新登录",
+    "invalidToken": "无效的访问令牌",
+    "loginSuccess": "令牌验证成功"
+  },
+
+  "header": {
+    "menu": {
+      "copyApiKey": "复制 API KEY",
+      "dataBackup": "数据迁移",
+      "checkUpdate": "检查更新",
+      "logout": "退出登录"
+    },
+    "messages": {
+      "unauthorized": "未授权，请重新登录",
+      "apiKeyNotSet": "API密钥未设置或加载失败",
+      "apiKeyCopied": "API密钥已复制到剪贴板",
+      "updateCheckFailed": "检查更新失败",
+      "latestVersion": "当前已是最新版本",
+      "getVersionFailed": "获取版本号失败"
+    },
+    "update": {
+      "newVersion": "发现新版本",
+      "currentVersion": "当前版本",
+      "latestVersion": "最新版本",
+      "skipUpdate": "暂不更新",
+      "goToUpdate": "前往更新"
+    },
+    "language": {
+      "zh": "中",
+      "en": "EN"
+    }
+  },
+
+  "home": {
+    "features": {
+      "models": {
+        "title": "模型管理",
+        "description": "OpenWebUI 提供模型的价格管理"
+      },
+      "users": {
+        "title": "用户管理",
+        "description": "用户信息查询和余额管理"
+      },
+      "stats": {
+        "title": "使用统计",
+        "description": "使用统计数据和可视化"
+      }
+    }
+  },
+
+  "models": {
+    "title": "模型管理",
+    "description": "管理所有可用模型的价格配置。点击模型图标可进行单独测试，测试结果将显示在图标右上角。",
+    "testAll": "测试全部模型",
+    "exportConfig": "导出配置",
+    "importConfig": "导入配置",
+    "test": {
+      "status": {
+        "valid": "有效",
+        "invalid": "无效",
+        "pending": "等待中",
+        "testing": "测试中",
+        "complete": "测试完成"
+      },
+      "progress": {
+        "title": "测试进度",
+        "detail": "点击卡片查看详细信息"
+      },
+      "result": {
+        "success": "有效模型",
+        "failed": "无效模型",
+        "complete": "测试完成，点击卡片查看详细信息"
+      }
+    },
+    "table": {
+      "name": "模型",
+      "inputPrice": "输入价格 ¥ / M tokens",
+      "outputPrice": "输出价格 ¥ / M tokens",
+      "perMsgPrice": "每条消息价格 ¥ / 条",
+      "notSet": "未设置",
+      "mobile": {
+        "inputPrice": "输入价格",
+        "outputPrice": "输出价格",
+        "perMsgPrice": "每条消息"
+      },
+      "perMsgPriceTooltip": "每条消息的固定收费，如果设置为负数则按 token 计费"
+    }
+  },
+
+  "users": {
+    "title": "用户管理",
+    "userInfo": "用户信息",
+    "balance": "余额",
+    "id": "ID",
+    "name": "姓名",
+    "email": "邮箱",
+    "role": "角色",
+    "userDetails": "用户详细信息",
+    "nickname": "昵称",
+    "message": {
+      "updateBalance": {
+        "success": "余额更新成功",
+        "error": "更新余额失败"
+      },
+      "fetchUsersError": "获取用户列表失败",
+      "invalidNumber": "请输入有效的数字",
+      "deleteSuccess": "用户删除成功",
+      "deleteError": "删除用户失败"
+    },
+    "actions": "操作",
+    "deleteConfirm": {
+      "title": "确认删除用户",
+      "description": "确定要删除用户 \"{{name}}\" 吗？此操作无法撤销，用户的所有相关数据都将被删除。"
+    },
+    "total": "共",
+    "totalRecords": "条记录"
+  },
+
+  "records": {
+    "title": "使用记录",
+    "export": "导出记录",
+    "dateRange": "日期范围",
+    "columns": {
+      "user": "用户",
+      "model": "模型",
+      "tokens": "Tokens",
+      "cost": "费用",
+      "time": "时间"
+    }
+  },
+
+  "update": {
+    "newVersion": "发现新版本",
+    "currentVersion": "当前版本",
+    "latestVersion": "最新版本",
+    "ignore": "忽略",
+    "update": "更新",
+    "skipUpdate": "暂不更新",
+    "goToUpdate": "前往更新"
+  },
+
+  "backup": {
+    "title": "数据迁移",
+    "description": "导出或导入数据库备份，方便迁移和恢复数据",
+    "export": {
+      "title": "导出数据",
+      "description": "将当前数据导出为备份文件",
+      "success": "导出成功",
+      "error": "导出失败"
+    },
+    "import": {
+      "title": "导入数据",
+      "description": "从备份文件恢复数据",
+      "success": "导入成功",
+      "error": "导入失败"
+    }
+  },
+
+  "panel": {
+    "header": "使用统计看板 - OpenWebUI",
+    "title": "使用统计",
+    "byAmount": "按金额",
+    "byCount": "按次数",
+    "timeRange": {
+      "title": "时间范围",
+      "timeOptions": {
+        "day": "今天",
+        "week": "本周",
+        "month": "本月",
+        "30Days": "近30天",
+        "all": "全部"
+      }
+    },
+    "modelUsage": {
+      "title": "模型使用",
+      "total": "总计",
+      "others": "其他"
+    },
+    "userUsageChart": {
+      "title": "用户使用",
+      "yaxis": {
+        "byAmount": "消耗金额",
+        "byCount": "使用次数"
+      }
+    },
+    "usageDetails": {
+      "title": "使用详情",
+      "table": {
+        "user": "用户",
+        "time": "时间",
+        "model": "模型",
+        "tokens": "Tokens",
+        "cost": "费用",
+        "balance": "余额"
+      }
+    }
+  }
+}
